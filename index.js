@@ -68,7 +68,8 @@ app.get("/", (req, res) => {
         front: frontEnd,
         back: backEnd,
         frame: frameworks,
-        source: sourceControl
+        source: sourceControl,
+        title: 'Home'
     });
 });
 
@@ -79,7 +80,8 @@ app.get("/about", (req, res) => {
         resume: routes[2],
         aboutP1: aboutMeP1,
         aboutP2: aboutMeP2,
-        aboutP3: aboutMeP3
+        aboutP3: aboutMeP3,
+        title: 'About Me'
     });
 });
 
@@ -99,7 +101,8 @@ app.get("/contact", (req, res) => {
     res.render("contact", {
         about: routes[0],
         contact: routes[1],
-        resume: routes[2]
+        resume: routes[2],
+        title: 'Contact Me'
     });
 });
 
