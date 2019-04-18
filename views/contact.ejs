@@ -1,4 +1,48 @@
 <%- include('partials/header')%>
 
+    <h1 style="text-align: center">Contact Me</h1>
+    <hr>
+    &nbsp;
+    &nbsp;
 
-<%- include('partials/footer')%>
+    <form style="margin-bottom: 200px" action="/contact" method="post">
+        <div class="form-group">
+            <label>Your name</label>
+            <input type="name" class="form-control" name="name" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label>Your email</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label>Subject</label>
+            <input type="subject" class="form-control" name="subject" placeholder="Enter subject">
+        </div>
+        <div class="form-group">
+            <label>Your Message</label>
+            <textarea type="message" class="form-control" name="message" placeholder="Enter message" rows="10" column="30"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    </div>
+
+
+    <div class="footer-basic" style="position: fixed; margin-bottom: 0; margin-top: 100px">
+        <div class="social">
+            <a href="https://github.com/omarlozoya"><i class="icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                </i></a>
+            <a href="https://www.linkedin.com/in/omar-lozoya/"><i class="icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </i></a>
+        </div>
+        <p class="copyright">Omar J Lozoya © 2019</p>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

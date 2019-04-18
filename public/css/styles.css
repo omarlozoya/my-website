@@ -156,7 +156,11 @@ p {
 li {
     font-size: 1.6rem;
 }
-  
+
+label {
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
   
   
   

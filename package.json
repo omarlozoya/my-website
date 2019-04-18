@@ -18,9 +18,12 @@
   "homepage": "https://github.com/omarlozoya/my-website#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
+    "email-templates": "^5.0.4",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
+    "nodemailer": "^6.1.0",
     "nodemon": "^1.18.11"
   }
 }
