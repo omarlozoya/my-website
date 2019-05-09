@@ -1,9 +1,9 @@
 <%- include('partials/header');%>
 
         <div class="row">
-            <div class="head">
+            <div class="head animated pulse">
                 <h1>Omar J Lozoya</h1>
-                <h2><em>Full Stack Web Developer/Software Engineer</em></h2>
+                <h2 style="color: #8c7ae6"><em>Software Engineer/Full-Stack Developer</em></h2>
                 <p>I have a passion for software development and building web applications. I also love to drink coffee and play electric guitar.
                 </p>
                 <hr>
@@ -15,7 +15,7 @@
                 <h4>Front-end:</h4>
                 <%front.forEach(item => {%>
                     <ul>
-                        <li><%=item%></li>
+                        <li class="animated slideInLeft"><%=item%></li>
                     </ul>
                 <%})%>
             </div>
@@ -23,7 +23,7 @@
                 <h4>Back-end:</h4>
                 <%back.forEach(item => {%>
                     <ul>
-                        <li><%=item%></li>
+                        <li class="animated slideInLeft"><%=item%></li>
                     </ul>
                 <%})%>
             </div>
@@ -31,7 +31,7 @@
                 <h4>Source Control:</h4>
                 <%source.forEach(item => {%>
                     <ul>
-                        <li><%=item%></li>
+                        <li class="animated slideInLeft"><%=item%></li>
                     </ul>
                 <%})%>
             </div>
@@ -39,7 +39,7 @@
         <hr>
         <div class="row">
             <h3>Projects</h3>
-            <div class="features-boxed">
+            <div class="features-boxed" style="background-color: #0097e6;">
                 <div class="container">
                     <div class="row justify-content-center features">
                         <div class="col-sm-6 col-md-5 col-lg-4 item">

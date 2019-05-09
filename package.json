@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/omarlozoya/my-website#readme",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "body-parser": "^1.18.3",
     "dotenv": "^7.0.0",
     "ejs": "^2.6.1",
