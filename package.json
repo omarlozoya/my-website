@@ -24,6 +24,6 @@
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "nodemailer": "^6.1.0",
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.19.0"
   }
 }
