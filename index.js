@@ -53,7 +53,7 @@ const aboutMeP1 =
 const aboutMeP2 =
   "My early years in college were ones of confusion. I kept switching majors because I was never really sure of what I wanted to do in life. Nothing seemed to attain my passion and attention the way I thought a career should. It was not until I took an intro to programming elective when I realized that coding was something I really enjoyed. The feeling of accomplishment and satisfaction when I would see, what seemed to be, an impossible programming task compile and run correctly, was incredible and unlike anything else I had experienced. It gave me a feeling that no past job or task had.";
 const aboutMeP3 =
-  "I soon started doing my research as to what software development was all about and immediately made the decision to change my major to computer science (software engineering). I pursued a career in software development and am now on the verge of graduation.  I love building/creating different projects, seeing applications come to life, and solving real world problems using the skills I have acquired. My name is Omar Lozoya and developing software has become one of my passions in life.";
+  "I soon started doing my research as to what software engineering was all about and immediately made the decision to change my major to computer science (software engineering). I pursued a career in software engineering and have successfully graduated this past May.  I love building/creating different projects, seeing applications come to life, and solving real world problems using the skills I have acquired. My name is Omar Lozoya and developing software has become one of my passions in life.";
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
