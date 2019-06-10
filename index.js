@@ -17,7 +17,7 @@ const app = express();
 const routes = ["about", "contact", "resume"];
 const frontEnd = [
   "Javascript",
-  "Angular",
+  "Angular 7",
   "HTML",
   "CSS",
   "Typescript",
@@ -30,11 +30,13 @@ const backEnd = [
   "NodeJS/Express",
   "MongoDB/Mongoose",
   "PostgreSQL",
-  "Firebase",
   "EJS",
   "Java",
   "C++",
-  "Heroku"
+  "Heroku",
+  "Unit Testing",
+  "Stripe",
+  "JSON"
 ];
 const frameworks = ["MEAN Stack", " Express", "jQuery", "Swift"];
 const sourceControl = [
@@ -43,7 +45,8 @@ const sourceControl = [
   "Xcode",
   "Command Line",
   "Windows",
-  "MacOSX"
+  "MacOSX",
+  "Agile"
 ];
 const failMessage = "Your message failed to send. Please try again. Thank you!";
 const successMessage =
