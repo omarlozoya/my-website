@@ -36,11 +36,15 @@ const backEnd = [
   "Heroku",
   "Unit Testing",
   "Stripe",
-  "JSON"
+  "JSON",
+  "Lob",
+  "S3"
 ];
 const frameworks = ["MEAN Stack", " Express", "jQuery", "Swift"];
 const sourceControl = [
   "GitHub",
+  "Gitlab",
+  "Jira",
   "Visual Studio Code",
   "Xcode",
   "Command Line",
@@ -59,7 +63,9 @@ const aboutMeP3 =
   "I soon started doing my research as to what software engineering was all about and immediately made the decision to change my major to computer science (software engineering). I pursued a career in software engineering and have successfully graduated this past May.  I love building/creating different projects, seeing applications come to life, and solving real world problems using the skills I have acquired. My name is Omar Lozoya and developing software has become one of my passions in life.";
 app.set("view engine", "ejs");
 
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 app.use(express.static("public"));
 
